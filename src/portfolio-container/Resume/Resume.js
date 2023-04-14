@@ -58,7 +58,6 @@ const Resume = (props) => {
     { skill: "Express JS", ratingPercentage: 89 },
     { skill: "Node JS", ratingPercentage: 89 },
     { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -85,6 +84,13 @@ const Resume = (props) => {
         "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
       subHeading:
         "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+    },
+    {
+      title: "PayStack Payment Gateway  ",
+      duration: { fromDate: "2023", toDate: "2023" },
+      description:
+        "Rewriting the paystack gateway to allow users easily intergrate paystack with their products",
+      subHeading: "Technologies Used:  Epress Js, Node JS.",
     },
   ];
 
