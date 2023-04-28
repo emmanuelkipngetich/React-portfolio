@@ -90,14 +90,14 @@ const ContactMe = (props) => {
             {" "}
             <Typical loop={Infinity} steps={["Get in Touch 🤝", 1000]} />
           </h2>
-          <a href="https://web.facebook.com/nick.mendez.1029">
-            <i className="fa fa-facebook-square" />
+          <a href="https://www.linkedin.com/in/emmanuel-koech-a223a2171">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
-          <a href="">
-            <i className="fa fa-google-plus-square" />
+          <a href="https://link.medium.com/HfBBdSp8dzb">
+            <i class="fa fa-medium" aria-hidden="true"></i>
           </a>
-          <a href="https://www.instagram.com/nickeymullah/">
-            <i className="fa fa-instagram" />
+          <a href="https://twitter.com/MutaiE1?t=ma8Q0Z81fkTMZpnbXEZEfw&s=09">
+            <i className="fa fa-twitter" />
           </a>
         </div>
 

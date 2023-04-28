@@ -10,21 +10,21 @@ const Profile = () => {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.facebook.com/nick.mendez.1029">
-                <i className="fa fa-facebook-square" />
+              <a href="https://www.linkedin.com/in/emmanuel-koech-a223a2171">
+                <i className="fa fa-linkedin-square" />
               </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
+              <a href="https://link.medium.com/HfBBdSp8dzb">
+                <i className="fa fa-medium" />
               </a>
-              <a href="https://www.instagram.com/nickeymullah/">
-                <i className="fa fa-instagram" />
+              <a href="https://twitter.com/MutaiE1?t=ma8Q0Z81fkTMZpnbXEZEfw&s=09">
+                <i className="fa fa-twitter" />
               </a>
             </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Nicholas</span>
+              Hello, I'M <span className="highlighted-text">Emmanuel</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -35,22 +35,18 @@ const Profile = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Ethusiastic Dev😎",
+                    " Specialized in Data Visualization😎",
                     1000,
-                    "Full Stack Developer!💻",
+                    "Specialized in Data Analytics!💻",
                     1000,
-                    "MERN Stack Dev",
-                    1000,
-                    "Cross Platform Dev📱",
-                    1000,
-                    "React / React Native📱",
+                    "Specialized in Machine Learning!",
                     1000,
                   ]}
                 />
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Knack of building applications with front and back end operations.
+              Data Scientist & Analyst located in Nairobi Kenya
             </span>
           </div>
           <div className="profile-options">
@@ -61,9 +57,6 @@ const Profile = () => {
               {" "}
               Hire Me{" "}
             </button>
-            <a href="Resume.pdf" download="Nicholas' Resume">
-              <button className="btn highlighted-btn"> Get Resume </button>
-            </a>
           </div>
         </div>
         <div className="profile-picture">

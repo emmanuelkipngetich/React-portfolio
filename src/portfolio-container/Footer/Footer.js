@@ -1,25 +1,26 @@
 import React from "react";
 import "./Footer.css";
 import {
-  faFacebook,
+
   faLinkedin,
-  faInstagram,
+
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   /* SOCIALS STATIC DATA */
   let socialDetails = [
-    { icon: faFacebook, link: "https://www.facebook.com/nick.mendez.1029" },
     {
       icon: faLinkedin,
-      link: "https://www.linkedin.com/in/nicholas-ngetich-a269b2207/",
+      link: "https://www.linkedin.com/in/emmanuel-koech-a223a2171",
     },
     //   { icon: faGithub, link: '' },
     {
-      icon: faInstagram,
-      link: "https://www.instagram.com/nickeymullah/",
+      icon: faTwitter,
+      link: "https://twitter.com/MutaiE1?t=ma8Q0Z81fkTMZpnbXEZEfw&s=09",
     },
+
   ];
 
   /* GET CURRENT YEAR */
@@ -43,7 +44,9 @@ const Footer = () => {
     <div className="main-footer-container">
       <div className="main-footer-content">
         <div className="main-footer-message">
-          <span> All rights reserved © Nicholas Kipkoech {currentYear} </span>
+          <span> All rights reserved © Emmanuel Koech {currentYear} </span>
+          <span>Email:manureservations@gmail.com</span> {" "}
+          <p>Phone:+254727639047</p>
         </div>
         <div className="main-footer-socials">{getSocials()}</div>
       </div>

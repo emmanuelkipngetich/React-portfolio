@@ -167,9 +167,6 @@
 
 .skill-percentage {
   position: relative;
-  height: 15px;
-  width: 70%;
-  background-color: #ff5823;
 }
 
 .skill-percentage .active-percentage-bar {

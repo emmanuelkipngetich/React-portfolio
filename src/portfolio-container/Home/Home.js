@@ -12,14 +12,18 @@ function Home(props) {
       <Footer />
       <div className="icon">
         <a
-          href="https://www.facebook.com/nick.mendez.1029"
+          href="https://twitter.com/MutaiE1?t=ma8Q0Z81fkTMZpnbXEZEfw&s=09"
           className="facebook"
         >
-          <i className="fa fa-facebook-f"></i> Facebook{" "}
+          <i class="fa fa-twitter" aria-hidden="true"></i> Twitter{" "}
         </a>
-        <a href="https://www.instagram.com/nickeymullah/" className="twitter">
+        <a href="https://link.medium.com/HfBBdSp8dzb" className="twitter">
           {" "}
-          <i className="fa fa-instagram"></i> Instagram{" "}
+          <i class="fa fa-medium" aria-hidden="true"></i> Medium{" "}
+        </a>
+        <a href="https://www.linkedin.com/in/emmanuel-koech-a223a2171" className="twitter">
+          {" "}
+          <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin{" "}
         </a>
       </div>
     </div>
